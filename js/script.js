@@ -13,4 +13,9 @@ $(document).ready(function(){
         message = "Good Evening";
     }
     $('#headingText').empty().append(message + " From Lee Tongchher");
+    $('.radio-btn').click(function(){
+        $('.radio-inner').toggleClass("active");
+        $('body').toggleClass("dark");
+        $('p').toggleClass("font");
+    })
 })
