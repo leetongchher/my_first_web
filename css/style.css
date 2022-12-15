@@ -11,6 +11,9 @@
     flex-direction: column;
     margin-top: 5%;
 }
+.NewText{
+  color: greenyellow;
+}
 .img{
   width: 25%;
 }
