@@ -23,12 +23,12 @@
             </div>
 
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
                 <li><a href="#">Portfolio</a></li>
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="login.php">Login</a></li>
             </ul>
         </div>
 
@@ -173,9 +173,9 @@
 </body>
 </html>
 <?php  
-$user = $_POST["u"];
-$pass = $_POST["p"];
-if ($user == "admin" && $pass == "123") {
+$user = $_POST["email"];
+$pass = $_POST["password"];
+if ($user == "tongchherly1245@gmail.com" && $pass == "123") {
   echo "Login Successfully";
 }else{
   echo "Login Fail!!";
